@@ -1,0 +1,24 @@
+body {
+	height: 100vh;
+	background: #111;
+	display: grid;
+	place-content: center;
+}
+
+.container-recorder{
+    display: flex;
+}
+
+.container-recorder button {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
+.container-stop{
+    display:none;
+}
+.container-stop button{
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 30px;
+}
